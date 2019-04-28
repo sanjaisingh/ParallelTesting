@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestNG-Suite]" parallel="tests">
+  <test name="Flipkart">
+    <classes>
+      <class name="com.suite1.Flipkart"/>
+    </classes>
+  </test> <!-- Flipkart -->
+  <test name="Snapdeal">
+    <classes>
+      <class name="com.suite2.Snapdeel"/>
+    </classes>
+  </test> <!-- Snapdeal -->
+  <test name="PP">
+    <classes>
+      <class name="com.suite4.Testing"/>
+    </classes>
+  </test> <!-- PP -->
+  <test name="Google">
+    <classes>
+      <class name="com.suite3.Google"/>
+    </classes>
+  </test> <!-- Google -->
+</suite> <!-- Failed suite [TestNG-Suite] -->
